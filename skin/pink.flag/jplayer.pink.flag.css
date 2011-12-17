@@ -36,7 +36,10 @@ div.jp-video {
 div.jp-audio {
 	width:201px;
 	padding:20px;
-}
+	background-image:url(http://www.freeenergymedia.com/shared/PLAYER/player/skin/backgroundJplayer.png);
+	border: solid 3px gray;
+	border-radius: 15px;
+	}
 
 div.jp-video-270p {
 	width:480px;
@@ -78,7 +81,7 @@ div.jp-video-full div.jp-interface {
 div.jp-interface {
 	position: relative;
 	width:100%;
-	background-color:#3a2a45; /* Required for the full screen */
+	
 }
 
 
@@ -515,11 +518,10 @@ div.jp-type-playlist div.jp-playlist a {
 }
 
 div.jp-type-playlist div.jp-playlist a:hover {
-	color: #e892e9;
+	color: #AF8AFF;
 }
 
 div.jp-type-playlist div.jp-playlist li.jp-playlist-current {
-	background-color: #26102e;
 	margin: 0 -20px;
 	padding: 2px 20px;
 	border-top: 1px solid #26102e;
@@ -527,7 +529,7 @@ div.jp-type-playlist div.jp-playlist li.jp-playlist-current {
 }
 
 div.jp-type-playlist div.jp-playlist li.jp-playlist-current a{
-	color: #e892e9;
+	color: #AF8AFF;
 }
 
 div.jp-type-playlist div.jp-playlist a.jp-playlist-item-remove {
@@ -539,7 +541,7 @@ div.jp-type-playlist div.jp-playlist a.jp-playlist-item-remove {
 	color:#8C7A99;
 }
 div.jp-type-playlist div.jp-playlist a.jp-playlist-item-remove:hover {
-	color:#E892E9;
+	color:#AF8AFF;
 }
 
 div.jp-type-playlist div.jp-playlist span.jp-free-media {
@@ -554,7 +556,7 @@ div.jp-type-playlist div.jp-playlist span.jp-free-media a{
 }
 
 div.jp-type-playlist div.jp-playlist span.jp-free-media a:hover{
-	color:#E892E9;
+	color:#AF8AFF;
 }
 span.jp-artist {
 	font-size:.8em;

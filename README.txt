@@ -24,13 +24,3 @@ jPlayer Website: http://www.jplayer.org/
 
 For support requests use:
 jPlayer Google Group: https://groups.google.com/forum/#!forum/jplayer
-
-
-
-PODCAST WIDGET
---------------
-
-This JPlayer script has been modified to turn it into a podcast widget that lists the latest 3 podcasts
-getxmlforplayer.php
-parses the titles and links to the latest three podcasts and displays them in the player
-Currently we are using Neil Degrasse's Startalk Podcast as a sample.
