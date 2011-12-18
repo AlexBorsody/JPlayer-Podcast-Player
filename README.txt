@@ -24,3 +24,14 @@ jPlayer Website: http://www.jplayer.org/
 
 For support requests use:
 jPlayer Google Group: https://groups.google.com/forum/#!forum/jplayer
+
+-------------
+
+Line 4 of ajax.js makes an ajax JSONP call to getxml.php file, replace the path as needed
+
+because it is a JSONP call the widget can be embedded and shared accross various websites
+without "same origin policy" error.  
+
+JSONP adds a randomly generated callback function after =?
+
+the PHP $_GET['callback'] wraps the returned JSON in this callback function.

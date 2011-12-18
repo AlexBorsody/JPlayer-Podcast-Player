@@ -1,7 +1,7 @@
 $(document).ready(function() {
 
 
-    $.getJSON("http://www.freeenergymedia.com/getxml2.php?callback=?", {},function (json) 
+    $.getJSON("getxml2.php?callback=?", {},function (json) 
 	{
       
         new jPlayerPlaylist({
